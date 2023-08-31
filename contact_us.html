@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelingWebsite | Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="./Images/icon.jpg.jpeg">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/f7fb82bf47.js" crossorigin="anonymous"> </script>
+</head>
+<body>
+    <nav class="navigation bg-dark">
+        <div class="container">
+            <!-- <h1 class="logo lg-heading text-light">TW</h1>  -->
+            <div class="logo2">
+               <a href="./index.html" target="_self" alt="Some Thing Went Wrong" ><img src="./Images/icon.jpg.jpeg" alt="weblogo"></a>
+            </div>
+            
+            <ul class="nav-items">
+                <li class="navitem"><a href="./index.html">Home</a></li>
+                <li class="navitem"><a href="./about_us.html">About Us</a></li>
+                <li class="navitem"><a href="./contact_us.html">Contact us</a></li>
+            </ul>
+        </div>
+   </nav> 
+   <section class="contact-form">
+        <div class="form-wrapper container">
+            <div class="contact-details">
+                <div class="address md-heading text-red">LOCATION</div>
+                <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, voluptatem?</p>
+                <div class="address md-heading text-red">E-MAIL</div>
+                <p class="text-black">travel@312email.com</p>
+                <div class="address md-heading text-red">PHONE</div>
+                <p class="text-black">+91 0982857348</p>
+                <div class="contact-image"></div>
+            </div>
+            <form action="send.php" class="form">
+                <div class="contact lg-heading text-red">Contact Us</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <label for="username" class="md-heading">Username*</label><br>
+                <input type="text" name="uname" id="username" required placeholder="Enter your username"><br>
+                <label for="email" class="md-heading">E-Mail*</label><br>
+                <input type="text" name="email" id="email" required placeholder="Ex-abc@email.com"><br>
+                <label for="phonen" class="md-heading">Phone*</label><br>
+                <input type="text" name="mobile" id="phonen" required placeholder="Ex- +91 98345829534" maxlength="10"><br>
+                <label for="area" class="md-heading">Write your review here.</label><br>
+                <textarea rows="8" cols="40" name="area" placeholder="Enter your feedback" maxlength="1000" minlength="100"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+   </section>
+</body>
+</html>
